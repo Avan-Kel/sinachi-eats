@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Jost:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #b8860b;
+  --gold-light: #d4a017;
+  --charcoal: #1c1a17;
+  --cream: #fdf8ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0e0d0b;
+  color: #f9edcf;
+  font-family: "Jost", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Gold divider */
+.gold-divider {
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #b8860b, transparent);
+}
+
+.gold-divider-full {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #b8860b 30%, #b8860b 70%, transparent);
+  opacity: 0.4;
+}
+
+/* Card hover glow */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  border-color: rgba(184, 134, 11, 0.5) !important;
+  box-shadow: 0 0 30px rgba(184, 134, 11, 0.08);
+  transform: translateY(-2px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1a17;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4d4840;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b8860b;
+}
+
+/* Input styles */
+.input-dark {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(184, 134, 11, 0.2);
+  color: #f9edcf;
+  transition: border-color 0.2s ease;
+}
+
+.input-dark:focus {
+  outline: none;
+  border-color: rgba(184, 134, 11, 0.6);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.input-dark::placeholder {
+  color: rgba(249, 237, 207, 0.3);
+}
+
+/* Shimmer animation for loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Star rating */
+.star-filled { color: #d4a017; }
+.star-empty { color: #4d4840; }
