@@ -46,8 +46,8 @@ export default function Home() {
             className="font-serif text-charcoal-400 text-lg mb-12 max-w-lg mx-auto leading-relaxed animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
-            Where classical Nigerian technique meets the vibrant spirit of Lagos —
-            a celebration of flavour, texture, and artistry.
+            Where classical Nigerian technique meets the vibrant spirit of Lagos
+            — a celebration of flavour, texture, and artistry.
           </p>
 
           <div
@@ -108,13 +108,16 @@ export default function Home() {
               A Labour of Love & Culinary Excellence
             </h2>
             <p className="font-serif text-charcoal-300 text-lg leading-relaxed mb-4 italic">
-              "Every dish tells a story. Every ingredient is chosen with intention."
+              &quot;Every dish tells a story. Every ingredient is chosen with
+              intention.&quot;
             </p>
+
             <p className="font-sans text-charcoal-400 leading-relaxed mb-8">
               Founded by Chef Sinachi Samuel and restaurateur Ngozi Okafor,
-              Sinachi Eats brings together decades of Nigerian culinary training with
-              West Africa's most vibrant flavours. From our wood-fired kitchen to
-              your table, every element is crafted with obsessive precision.
+              Sinachi Eats brings together decades of Nigerian culinary training
+              with West Africa&apos;s most vibrant flavours. From our wood-fired
+              kitchen to your table, every element is crafted with obsessive
+              precision.
             </p>
             <div className="grid grid-cols-3 gap-6 border-t border-gold-900/20 pt-8">
               {[
@@ -150,7 +153,8 @@ export default function Home() {
                 Chef&apos;s Note
               </div>
               <p className="font-serif text-cream-200 text-sm leading-relaxed italic">
-                &ldquo;Cooking is my love language. Every plate is a conversation.&rdquo;
+                &ldquo;Cooking is my love language. Every plate is a
+                conversation.&rdquo;
               </p>
               <p className="text-charcoal-400 text-xs font-sans mt-3">
                 — Chef Sinachi Samuel
@@ -175,7 +179,8 @@ export default function Home() {
               Featured Dishes
             </h2>
             <p className="font-serif text-charcoal-400 text-lg italic max-w-lg mx-auto">
-              Seasonal masterpieces, curated by our kitchen with the finest ingredients
+              Seasonal masterpieces, curated by our kitchen with the finest
+              ingredients
             </p>
           </div>
 
@@ -216,8 +221,18 @@ export default function Home() {
               className="inline-flex items-center gap-3 px-8 py-3 border border-gold-700/50 text-gold-400 hover:border-gold-500 hover:text-gold-300 font-sans text-sm tracking-widest uppercase transition-all"
             >
               View Full Menu
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
               </svg>
             </Link>
           </div>
@@ -278,8 +293,18 @@ export default function Home() {
               className="inline-flex items-center gap-3 px-8 py-3 border border-gold-700/50 text-gold-400 hover:border-gold-500 hover:text-gold-300 font-sans text-sm tracking-widest uppercase transition-all"
             >
               Read All Reviews
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
               </svg>
             </Link>
           </div>
@@ -309,7 +334,8 @@ export default function Home() {
             Reserve Your Evening
           </h2>
           <p className="font-serif text-charcoal-300 text-lg italic mb-10">
-            Tables are limited. Secure yours and let us craft an evening you will never forget.
+            Tables are limited. Secure yours and let us craft an evening you
+            will never forget.
           </p>
           <Link
             href="/reservations"

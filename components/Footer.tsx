@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="font-serif text-charcoal-300 text-lg leading-relaxed max-w-sm italic">
-              "Where classical Nigerian technique meets contemporary artistry — an experience for all the senses."
+              {"Where classical Nigerian technique meets contemporary artistry — an experience for all the senses."}
             </p>
             <div className="mt-6 flex items-center gap-2">
               <div className="w-5 h-5 bg-gold-500/10 border border-gold-700/40 flex items-center justify-center">
